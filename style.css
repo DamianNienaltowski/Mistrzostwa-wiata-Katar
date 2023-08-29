@@ -1,0 +1,142 @@
+body {
+  background: url("images.jpg");
+}
+
+.strona {
+  width: 1200px;
+  height: 1200px;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 0 auto;
+  background: rgb(219, 161, 161);
+  box-shadow: 10px 10px 30px black;
+}
+
+.naglowek {
+  font-size: 25px;
+  background: rgb(160, 3, 63);
+  height: 100px;
+  text-align: center;
+  line-height: 110px;
+}
+
+.odnosniki {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.srodek {
+  font-size: 32px;
+  float: left;
+}
+
+.linki {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgb(236, 117, 117);
+  border: 1px black solid;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  line-height: 80px;
+  color: black;
+  text-decoration: none;
+}
+
+.linki:hover {
+  background: rgb(197, 11, 11);
+  border: 5px black solid;
+}
+
+img {
+  float: right;
+  width: 600px;
+  height: 350px;
+  margin-bottom: 20px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.turniej {
+  font-size: 37px;
+  margin-left: 10px;
+}
+
+.srodek1 {
+  width: 600px;
+  float: left;
+  height: 400px;
+}
+
+.tekst {
+  font-size: 25px;
+  margin-left: 20px;
+}
+.home {
+  width: 80px;
+  height: 56.5px;
+  margin-top: 15.7px;
+  float: left;
+  border: 1px black solid;
+  margin-right: 3px;
+}
+.home:hover {
+  border: 2px black solid;
+}
+
+/* CSS DLA MIASTAISTADIONY.PHP */
+
+tr,
+td {
+  border: 1px solid black;
+  margin: 20px;
+}
+.pogrubienie {
+  font-weight: bold;
+}
+.strona_1 {
+  width: 1200px;
+  height: 1200px;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 0 auto;
+  background: rgb(219, 161, 161);
+  box-shadow: 10px 10px 30px black;
+}
+.srodek_1 {
+  font-size: 26px;
+  float: left;
+}
+.pogrubienie {
+  font-weight: bold;
+  text-align: center;
+}
+
+/* CSS DLA SEDZIOWIE.PHP */
+
+.srodek_2 {
+  font-size: 18px;
+  padding-left: 300px;
+}
+
+/* CSS DLA FAZAGRUPOWA.PHP */
+
+.strona_2 {
+  width: 1200px;
+  height: 4000px;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 0 auto;
+  background: rgb(219, 161, 161);
+  box-shadow: 10px 10px 30px black;
+}
+
+/* CSS DLA DODAJ_USUN.PHP*/
+
+.srodek_5 {
+  text-align: center;
+  background-color: black;
+}
